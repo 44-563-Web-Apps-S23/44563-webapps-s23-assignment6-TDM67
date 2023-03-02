@@ -69,6 +69,33 @@
         out.innerHTML=" good "+good+" oops "+oops
     }
     </script>
+    </script>
+    <div class="w3-card-4">
+        <img id="myImage" src="Machilus.webp" alt="Person" width="100" height="100" onclick="swapImage()" role="button">
+    <script>
+        let useImage=1;
+        function swapImage(){
+            var image = document.getElementById('myImage');
+            switch(useImage){
+  case useImage=1:
+  image.src = "Macilus.webp";
+      useImage=useImage+1;
+    break;
+  case useImage=2:
+  image.src = "Tanacetum.webp";
+      useImage=useImage+1;
+    break;
+    case useImage=3:
+  image.src = "Verbena.webp";
+  useImage=1;
+    break;
+  default:
+    // code block
+}
+        }
+     
+    </script>
+      </div>
 
 </body>
 </html> 
